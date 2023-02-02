@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="stylesheet" href="check.css">
+</head>
+<body>
+    <header>
+        <div id="logo">
+            <h2>COFFEE <span>HOUSE</span></h2>
+        </div>
+        <div id="navigations">
+            <nav>
+                <a id="home" href="../home/home.html">Home</a>
+                <a id="about" href="../about us/aboutus.html">About</a>
+                <a id="contact" href="../contat us/contact us.html">Contact</a>
+                <a id="services" href="../services/services.html">Services</a>
+                <a id="recipes" href="../recipies/recipes.html">Recipes</a>
+				<a id="shop" href="../shop/shop.html">Shop</a>
+            </nav>
+        </div>
+        </header>
+	<div class="details">
+		<form onsubmit="return send()">
+			<br>
+			<h4>Enter Details</h4>
+			<hr id="details-hr">
+			<p>Name:</p><input type="text" name="f-name" placeholder="Name" required><br>
+			<p>Last Name:</p><input type="text" name="l-name" placeholder="Last Name" required><br>
+			<p>Email:</p><input type="Email" name="Email" placeholder="Email"><br>
+			<p>Phone number:</p><input type="number" name="number" placeholder="+92 " required>
+			<p>Quantity: </p><input type="number" name="Quantity" max="9" id="qua" onchange="price()">
+			<br><br><p id="pri" ></p><br>
+			<p>Address: </p><textarea placeholder="Address" name="Address" required rows="8" cols="31"></textarea>
+			<h4 id="demo"></h4>
+			<button>SUBMIT</button>
+			<br><br>
+		</form>
+	</div>
+
+	<script type="text/javascript" src="java.js">
+		
+	</script>
+<div class="info">
+	<section>
+		<h4>About</h4>
+		<p>Though coffee is the basis for an endless array of beverages, its popularity is mainly attributed to its invigorating effect, which is produced by caffeine, an alkaloid present in coffee. Two species of coffee plants, Coffea arabica and C. canephora, supply almost all of the world's consumption.</p>
+	</section>
+
+	<section>
+		<h4>Menu</h4>
+		<div class="info-menu">
+			<a href="#" id="home"><h3>Home</h3></a>
+			<a href="#" id="about"><h3>About us</h3></a>
+			<a href="#" id="services"><h3>Services</h3></a>
+			<a href="#" id="recipes"><h3>Recipes</h3></a>
+			<a href="#" id="contact"><h3>Contact us</h3></a>
+		</div>
+	</section>
+
+	<section>
+		<h4>Contact Us</h4>
+		<img src="map-icon.png"><p><b>Address: </b>Street no.06, Dha Phase 06</p><br>
+		<img src="call-icon.png"><p><b>Call: </b>+92 3172831067</p><br>
+		<img src="mail-icon.png"><p><b>Email: </b>coffeehouse@gmail.com</p>
+	</section>
+</div>
+
+<footer>
+	<h3>2022 All Rights Reserved. Coffee House.</h3>
+</footer>
+</body>
+</html>

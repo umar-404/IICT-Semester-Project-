@@ -1,0 +1,309 @@
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+body{
+    margin: 0%;
+}
+header{
+    width: 100%;
+    display: flex;
+    height: 50%;
+}
+header img{
+    width: 100%;
+}
+#logo{
+    width: 30%;
+    height: 100%;
+    position: absolute;
+}
+#logo h2{
+    font-family: 'Passion One', cursive;
+    font-size: 200%;
+    margin-left: 8%;
+    color: white;
+}
+#logo span{
+    font-family: 'Passion One', cursive;
+    font-size: 150%;
+    color: #ea1538;
+}
+#logo span:hover{
+    font-family: 'Passion One', cursive;
+    font-size: 180%;
+    color: white;
+    transition: 0.5s;
+}
+#slogan{
+    width: 15%;
+    position: absolute;
+    font-family: 'Passion One';
+    font-size: 160%;
+    margin-left: 8%;
+    color: white;
+    top: 30%;
+    letter-spacing: 2px;
+    font-family: 'Roboto', sans-serif;
+}
+#slogan span{
+    color: #ea1538;
+    font-size: 180%;
+}
+#navigations{
+    width: 70%;
+    margin-top: 2.3%;
+    position: absolute;
+    margin-left: 30%;
+}
+#navigations a{
+    font-family: 'Dosis', sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 150%;
+    margin-left: 7%;
+    color: white;
+}
+#navigations a:hover{
+    margin-left: 7%;
+    color: #ea1538;
+    transition: 0.5s;
+}
+.banner_icon{
+    position: absolute;
+    top: 50%;
+    left: 37%;
+    border-radius: 100px;
+}
+.banner_icon img{
+    width: 130%;
+}
+.banner_icons{
+    position: absolute;
+    top: 52.5%;
+    left: 39%;
+    width: 50%;
+}
+.banner_icons img{
+    margin-left: 4%;
+    background: transparent;
+    border-radius: 10%;
+}
+.banner_icons img:hover{
+    margin-left: 4%;
+    width: 5%;
+    top: 50%;
+    transition: 0.5s;
+    box-shadow: 10px 10px 10px #111111;
+}
+#icon_3:hover{
+    transition: 0.5s;
+    width: 7%;
+}
+.front-heading{
+	text-align: center;
+	font-family: 'Passion One', cursive;
+	font-size: 50px;
+	color: #252525;
+}
+.front-heading h4{
+	margin-bottom: 30px;
+}
+#f-menu{
+	width: 150px;
+	border-top: 1px solid red;
+}
+.menu-l{
+	margin-left: 15%;
+	display: inline-block;
+}
+
+.menu-l h4{
+	font-family: 'Bebas Neue', cursive;
+	font-size: 30px;
+	color: #252525;
+	margin-bottom: 0px;
+}
+.menu-l h5{
+	margin-top: 0px;
+	font-family: 'Dosis', sans-serif;
+	font-size: 20px;
+	color: red;
+}
+.opening{
+	width: 100%;
+	height: 800px;
+}
+#opening-text{
+	width: 35%;
+	font-weight: bold;
+	font-family: 'Dosis', sans-serif;
+	color: #252530;
+	float: right;
+	margin-top: 100px;
+}
+.opening img{
+	width: 25%;
+	border-radius:15px;
+	float:	left;
+	margin-left: 250px;
+	margin-top: 150px;
+	box-shadow: 10px 10px 10px #ccc;
+}
+.opening h4{
+	margin-top: 40px;
+	font-size: 20px;
+}
+.opening h3{
+	font-family: 'Bebas Neue', cursive;
+	font-size: 40px;
+}
+.opening h4:hover{
+	color: red;
+    transition: 0.5s;
+}
+.skills{
+	height: 500px;
+}
+#skills-heading{
+	text-align: center;
+}
+#skills-heading h5{
+	text-align: center;
+	font-family: 'Bebas Neue', cursive;
+	font-size: 30px;
+	color: red;
+	margin-bottom: 0px;
+}
+#skills-heading h4{
+	text-align: center;
+	font-family: 'Bebas Neue', cursive;
+	font-size: 55px;
+	color: #252525;
+	margin-top: 0px;
+}
+#ex-boxes{
+	display: flex;
+    height: 350px;
+}
+#div1{
+	margin-left: 9.5%;
+	border: 4px solid;
+	border-color: #252525;
+	text-align: center;
+	width: 200px;
+    height: 240px;
+	border-radius: 15px;
+}
+#div2{
+	margin-left: 9.5%;
+	border: 4px solid;
+	border-color: #252525;
+	text-align: center;
+	width: 200px;
+    height: 240px;
+	border-radius: 15px;
+}
+#div3{
+	margin-left: 9.5%;
+	border: 4px solid;
+	border-color: #252525;
+	text-align: center;
+	width: 200px;
+    height: 240px;
+	border-radius: 15px;
+}
+#div4{
+	margin-left: 9.5%;
+	border: 4px solid;
+	border-color: #252525;
+	text-align: center;
+	width: 200px;
+    height: 240px;
+	border-radius: 15px;
+}
+#ex-boxes h4{
+	font-family: 'Bebas Neue', cursive;
+	font-size: 45px;
+	color: red;
+	margin-bottom: 0px;
+	font-size: inset 0 0 0 0 45px;
+	transition: ease-out 0.3s;
+}
+#ex-boxes h4:hover{
+    font-size: 400%;
+    margin-top: 50px;
+}
+#ex-boxes div:hover{
+    height: 75%;
+    transition: 0.5s;
+}
+#ex-boxes h5{
+	font-weight: bold;
+	font-family: 'Dosis', sans-serif;
+	color: #252525;
+	font-size: 30px;
+	margin-top: 10px;
+}
+.info{
+	width: 100%;
+	height: 370px;
+	background-color: #252525;
+	display: flex;
+}
+.info section{
+	width: 20%;
+	margin-left:10%;
+}
+.info-menu h3:hover{
+    color: #ea1538;
+    transition: 0.5s;
+}
+.info h4{
+	font-family: 'Bebas Neue', cursive;
+	font-size:25px;
+	margin-top: 50px;
+	letter-spacing: 2px;
+	color: white;
+}
+.info p{
+	font-family: 'Dosis', sans-serif;
+	color: white;
+	margin-top: 5px;
+	letter-spacing: 0.5px;
+}
+.info-menu a{
+	margin:0px;
+	font-family: 'Dosis', sans-serif;
+	font-size: 16.5px;
+	color: white;
+	text-decoration:none;
+	width: 84.7;
+}
+.info p{
+	display: inline-block;
+	color: inset 0 0 0 0 #ea1538;
+	transition: ease-out 0.3s;
+}
+.info p:hover{
+	color: #ea1538;
+}
+.info img{
+	width: 16px;
+	display: inline-block;
+	margin-right: 5px;
+}
+footer{
+	text-align: center;
+	font-family: 'Dosis', sans-serif;
+	font-size: 17px;
+	color: #252525;
+	letter-spacing: 0.5px;
+}
+footer{
+	text-align: center;
+	font-family: 'Dosis', sans-serif;
+	font-size: 17px;
+	color: #252525;
+	letter-spacing: 0.5px;
+}

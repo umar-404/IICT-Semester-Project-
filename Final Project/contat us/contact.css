@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+body{
+    margin: 0;
+}
+header{
+    width: 100%;
+    display: flex;
+    height: 50%;
+    background-color: black;
+}
+#logo{
+    width: 45%;
+    height: 80%;
+    
+}
+#logo h2{
+    font-family: 'Passion One', cursive;
+    font-size: 200%;
+    margin-left: 8%;
+    color: white;
+    margin-top: 2.5%;
+}
+#logo span{
+    font-family: 'Passion One', cursive;
+    font-size: 150%;
+    color: #ea1538;
+}
+#logo span:hover{
+    font-family: 'Passion One', cursive;
+    font-size: 160%;
+    color: white;
+    transition: 0.5s;
+}
+#navigations{
+    width: 70%;
+    margin-top: 1.8%;
+    margin-left: 10%;
+	
+}
+#navigations a{
+    font-family: 'Dosis', sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 150%;
+    margin-left: 7%;
+    color: white;
+}
+#navigations a:hover{
+    margin-left: 7%;
+    color: #ea1538;
+    transition: 0.5s;
+}
+.contact-us{
+	width: 100%;
+	height: 700px;
+	margin-left: 34%;
+}
+#contact-us-hr{
+	margin-left: 150px;
+	width: 150px;
+	border-top: 1px solid orange;
+}
+.contact-us h4{
+	margin-left: 8%;
+	font-family: 'Dosis', sans-serif;
+	font-size: 50px;
+	color: #252525;
+	margin-bottom: 30px;
+}
+.contact-us img{
+	width: 900px;
+	border-radius:12px;
+	position: relative;
+	left: -34%;
+}
+input::placeholder{
+	font-family: 'Dosis', sans-serif;
+	letter-spacing: 1.5px;
+	position: absolute;
+	top: 3px;
+	left: 20px;
+	font-size: 25px;
+}
+textarea::placeholder{
+	font-family: 'Dosis', sans-serif;
+	font-size: 25px;
+	letter-spacing: 1.5px;
+	position: absolute;
+	top: 20px;
+	left: 20px;
+}
+#contact-us-text{
+	width: 50%;
+	font-weight: bold;
+	font-family: 'Dosis', sans-serif;
+	font-size: 20px;
+	color: #252530;
+	margin-top: 85px;
+}
+#contact-us-text input{
+	height: 35px;
+	width: 475px;
+	border-radius: 15px;
+	margin-top: 20px;
+	position: absolute;
+	border-style: none;
+}
+#Name{
+	top: 60%;
+	left: 32%;
+}
+#Email{
+	top: 70%;
+	left: 32%;
+}
+#Number{
+	top: 80%;
+	left: 32%;
+}
+#contact-us-text textarea{
+	height: 150px;
+	width: 475px;
+	border-radius: 15px;
+	margin-top: 20px;
+	position: absolute;
+	top: 90%;
+	left: 32%;
+}
+#Send{
+	border-radius: 30px;
+	position: absolute;
+	top: 120%;
+	left: 44%;
+	height: 50px;
+	width: 150px;
+	border-style: none;
+	background-color: #FFF500;
+	transition: 0.3s;
+}
+#Send:hover{
+	background-color:#FFA500;
+}
+.info{
+	width: 100%;
+	height: 370px;
+	background-color: #252525;
+	display: flex;
+}
+.info section{
+	width: 20%;
+	margin-left:10%;
+}
+.info-menu h3:hover{
+    color: #ea1538;
+    transition: 0.5s;
+}
+.info h4{
+	font-family: 'Bebas Neue', cursive;
+	font-size:25px;
+	margin-top: 50px;
+	letter-spacing: 2px;
+	color: white;
+}
+.info p{
+	font-family: 'Dosis', sans-serif;
+	color: white;
+	margin-top: 5px;
+	letter-spacing: 0.5px;
+}
+.info-menu a{
+	margin:0px;
+	font-family: 'Dosis', sans-serif;
+	font-size: 16.5px;
+	color: white;
+	text-decoration:none;
+	width: 84.7;
+}
+.info p{
+	display: inline-block;
+	color: inset 0 0 0 0 #ea1538;
+	transition: ease-out 0.3s;
+}
+.info p:hover{
+	color: #ea1538;
+}
+.info img{
+	width: 16px;
+	display: inline-block;
+	margin-right: 5px;
+}
+footer{
+	text-align: center;
+	font-family: 'Dosis', sans-serif;
+	font-size: 17px;
+	color: white;
+	letter-spacing: 0.5px;
+    background-color: black;
+ 
+}
